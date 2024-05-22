@@ -1,0 +1,45 @@
+<!-- Index
+1-Head
+2-Body
+    2.1-Header
+    2.2-Main (carousel)
+    
+    2.14-Footer
+    2.15-Modal
+    2.16-JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Description" content="This is Counter APP">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter APP</title>
+        <link rel="stylesheet" href="Css/all.css">
+        <link rel="stylesheet" href="Css/Bootstrap Icon/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="Css/fastbootstrap.min.css">
+        <link rel="stylesheet" href="Css/bootstrap.css">
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+
+    <body class="bg-info-subtle">
+
+     <main>
+      <div class="container col-4 position-absolute top-50 start-50 translate-middle rounded bg-primary-subtle p-5 text-center">
+        <legend class="text-center my-2 text-primary fs-3 text-decoration-underline fw-bold">Counter Application</legend>
+        <div id="countr" class="m-auto fw-bold">0</div>
+        <div class="d-flex justify-content-center btncont">
+          <button id="incr" class="btn border border-primary border-2 mx-1 btn-primary rounded-2 btn-blu " >+</button>
+          <button id="decr" class="btn border border-primary border-2 mx-1 btn-primary rounded-2 btn-blu " >-</button>
+       </div>
+        <button id="resetr" class="btn border border-danger border-2 btn-danger rounded-2 p-2 my-2 btn-red fs-3" >Reset</button>
+        <div id="result" class="text-center text-primary fw-bold"></div>
+      </div>
+     </main>
+
+      <!-- <script src="./js/fastbootstrap.js"></script> -->
+      <script src="./js/bootstrap.bundle.js"></script>
+      <script src="./js/script.js"></script>   
+
+    </body>
+</html>

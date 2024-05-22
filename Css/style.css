@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+#countr{
+    font-size: 50px;
+}
+
+.btn-blu{
+    line-height: 0.5;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+.container{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
