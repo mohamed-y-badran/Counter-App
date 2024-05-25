@@ -14,7 +14,7 @@
 3.  CSS: Styles the application.
 4.  Bootstrap: Provides a responsive and visually appealing user interface.
 
-**Contact*
+**Contact**
   Email: mohamedworking2040@gmail.com
 
 **This project demonstrates my ability to develop simple yet functional web applications, emphasizing clean code and user-friendly design.**
